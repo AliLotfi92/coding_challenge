@@ -87,7 +87,7 @@ class Solution(object):
             return numdel + repalces_for_repeated
         return 0
 if __name__ == "__main__":
-    s = 'aaAA11'
+    s = 'aabb11'
     new_class = Solution()
     A = new_class.strongPasswordChecker(s)
     print(A)
